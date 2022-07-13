@@ -1,0 +1,35 @@
+body {
+    background-color: #e29578;
+}
+h1 {
+    color: #edf6f9;
+}
+
+/*Media Queries para breakpoints Básicos*/
+ /*Escritorio*/
+@media (max-width: 1328px) { 
+    body {
+        background-color: #3d405b;
+    }
+    h1 {
+        color: #f4f1de;
+    }
+ }
+  /*Tabletas*/
+@media (max-width: 960px) { 
+    body {
+        background-color: #e63946;
+    }
+    h1 {
+        color: #f1faee;
+    }
+ }
+   /*Móviles*/
+@media (max-width: 480px) { 
+    body {
+        background-color: #6b705c;
+    }
+    h1 {
+        color: #ddbea9;
+    }
+ }
